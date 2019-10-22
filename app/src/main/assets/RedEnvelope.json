@@ -1,0 +1,72 @@
+{
+  "trace": null,
+  "referTraceId": null,
+  "errorCode": 0,
+  "errorMessage": null,
+  "content": {
+    "list": [{
+      "title": null,
+      "items": [{
+        "code": "202932125262970880",
+        "amount": 280,
+        "currency": "¥",
+        "title": "夏日专属券-平台通用",
+        "content": "满2800元减280元 满2000元减200元\n满1400元减140元 满1000元减100元\n满700元减70元",
+        "validPeriod": "有效期：2019-07-12至2019-07-23",
+        "showLimitRules": false,
+        "limitRules": ["1、同类红包每张订单限使用一个，且不能与部分优惠叠加使用", "2、一次性使用，抵扣定金后的余额不能再使用", "3、部分促销活动暂不支持红包支付，具体详见相关活动规则页面"],
+        "fontColor": "#FF9645",
+        "backgroundColorStart": "#FCEFE5",
+        "backgroundColorEnd": "#FFE4CF",
+        "gray": true,
+        "link": {
+          "enabled": true,
+          "title": null,
+          "text": "已领取",
+          "navigateUrl": null
+        }
+      }, {
+        "code": "201857292462886912",
+        "amount": 100,
+        "currency": "¥",
+        "title": "途家民宿红包",
+        "content": "抵扣房费6.00% 最高抵扣100元",
+        "validPeriod": "有效期：2019-07-12至2019-09-30",
+        "showLimitRules": false,
+        "limitRules": ["1、同类红包每张订单限使用一个，且不能与部分优惠叠加使用", "2、一次性使用，抵扣定金后的余额不能再使用", "3、部分促销活动暂不支持红包支付，具体详见相关活动规则页面"],
+        "fontColor": "#FF9645",
+        "backgroundColorStart": "#FCEFE5",
+        "backgroundColorEnd": "#FFE4CF",
+        "gray": false,
+        "link": {
+          "enabled": true,
+          "title": null,
+          "text": "立即领取",
+          "navigateUrl": null
+        }
+      }, {
+        "code": "202932074851631104",
+        "amount": 60,
+        "currency": "¥",
+        "title": "夏日专属券-平台通用",
+        "content": "抵扣房费7.00% 最高抵扣60元",
+        "validPeriod": "有效期：2019-07-12至2019-07-23",
+        "showLimitRules": false,
+        "limitRules": ["1、同类红包每张订单限使用一个，且不能与部分优惠叠加使用", "2、一次性使用，抵扣定金后的余额不能再使用", "3、部分促销活动暂不支持红包支付，具体详见相关活动规则页面"],
+        "fontColor": "#FF9645",
+        "backgroundColorStart": "#FCEFE5",
+        "backgroundColorEnd": "#FFE4CF",
+        "gray": false,
+        "link": {
+          "enabled": true,
+          "title": null,
+          "text": "立即领取",
+          "navigateUrl": null
+        }
+      }],
+      "desc": null
+    }],
+    "title": "红包",
+    "desc": "先领红包，订房更优惠哦~"
+  }
+}

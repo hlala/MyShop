@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txt_expand_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_weight="35"
+        style="@style/base_redenvelope_text_font_style"
+        android:textColor="@color/font_color_999999"
+        android:text="1、同类红包每张订单限使用一个，且不能与部分优惠叠加使用.\n2、一次性使用，抵扣定金后的余额不能再使用\n3、部分促销活动暂不支持红包支付，具体详见相关活动规则页面"/>
+
+    <ImageButton
+        android:id="@+id/ibtn_expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/arrow_down"/>
+
+</LinearLayout>

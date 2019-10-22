@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_get_red_envelope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="领红包"/>
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_200" />
+    <EditText
+        android:id="@+id/text_1"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_200" />
+
+    <com.example.my_shop.view.ExpandableTextView
+        android:id="@+id/ceshi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.my_shop.view.ExpandableTextView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberAddSubView">
+        <attr name="max_value" format="integer"></attr>
+        <attr name="min_value" format="integer"></attr>
+        <attr name="default_value" format="integer"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="ExpandableTextView">
+        <attr name="isExpandable" format="boolean"></attr>
+    </declare-styleable>
+</resources>

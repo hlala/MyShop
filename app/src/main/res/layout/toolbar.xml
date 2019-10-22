@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <com.example.my_shop.bean.CnToolBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <!--这是左边的搜索框-->
+        <ImageButton
+            android:id="@+id/ibtn_back"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"/>
+
+        <!--居中的标题框-->
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="这是标题"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+        <!--右边的-->
+        <EditText
+            android:id="@+id/etxt_search"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center_vertical"/>
+
+</RelativeLayout>

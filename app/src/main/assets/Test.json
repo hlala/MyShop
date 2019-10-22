@@ -1,0 +1,35 @@
+{"orderDetailBannerVo":[{
+  "bannerType": 1,
+  "bargainStatus": 0,
+  "bargainStatusDesc": "1wenan",
+  "button": {
+    "enabled": false,
+    "navigateUrl": "2wenan",
+    "text": "3wenan",
+    "title": "4wenan"
+  },
+  "countDown": 30,
+  "gray": false,
+  "linkUrl": "5wenan",
+  "pictureUrl": "https://pic1.fvt.tujia.com/upload/landlordunit/day_170426/thumb/201704261728056736_700_467.jpg",
+  "subTitle": "7wenan",
+  "textColor": "8wenan",
+  "title": "9wenan"
+},{
+  "bannerType": 2,
+  "bargainStatus": 0,
+  "bargainStatusDesc": "1wenan",
+  "button": {
+    "enabled": false,
+    "navigateUrl": "2wenan",
+    "text": "3wenan",
+    "title": "4wenan"
+  },
+  "countDown": 30,
+  "gray": false,
+  "linkUrl": "5wenan",
+  "pictureUrl": "https://pic1.fvt.tujia.com/upload/landlordunit/day_170426/thumb/201704261728056736_700_467.jpg",
+  "subTitle": "7wenan",
+  "textColor": "8wenan",
+  "title": "9wenan"
+}]}

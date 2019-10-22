@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/memberScorePanel"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/selector_list_item"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/memberScoreLabelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_alignParentLeft="true"
+            android:text="会员可享积分" />
+        <ImageView
+            android:id="@+id/memberScoreLabelNoticeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:layout_alignTop="@id/memberScoreLabelTitle"
+            android:layout_toRightOf="@id/memberScoreLabelTitle"
+            android:src="@drawable/house_detail_bottom_check_in_notice_icon" />
+        <TextView
+            android:id="@+id/memberScoreLabelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/memberScoreLabelTitle"
+            android:layout_alignParentLeft="true"
+            android:text="积分详情" />
+
+        <TextView
+            android:id="@+id/memberScoreValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toLeftOf="@id/memberScoreTo"
+            android:text="486"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/memberScoreTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_right_profile" />
+    </RelativeLayout>
+</LinearLayout>
